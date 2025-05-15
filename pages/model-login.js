@@ -60,7 +60,7 @@ function ModelLogin() {
   return (
     <Layout>
       <Head>
-        <title> Therapist Register/Login page</title>
+        <title> Model Register/Login page</title>
       </Head>
       <div className="registration-container single-login">
            
@@ -80,7 +80,7 @@ function ModelLogin() {
             </form>
            <p> {error? error: ''} </p>
 
-            <Link href='/therapist-registration'> Not a member? Click to create a new therapist account </Link> 
+            <Link href='/model-registration'> Not a member? Click to create a new model account </Link> 
  
         </div>
 

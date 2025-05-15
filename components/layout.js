@@ -52,8 +52,8 @@ export default function Layout({ children, home }) {
         {home ? (
           <>            
             <ul className='menu'>
-                <li> <Link href='/'> Therapist </Link> </li>
-                <li> <Link href='/model-registration'> Therapist Login/Register </Link> </li>
+                <li> <Link href='/'> Models </Link> </li>
+                <li> <Link href='/model-registration'> Model Login/Register </Link> </li>
                 <li> <Link href='https://www.tristatemassage.com/contact'> Help  </Link> </li>
                 <li> {isLoggedIn? <div> <Link href='/customer-backend'> Settings </Link> | <Link href='/logout'>  Logout </Link> </div>  : <Link href='/customer-login'> Customer Zone </Link> }  </li>
             </ul>
@@ -61,8 +61,8 @@ export default function Layout({ children, home }) {
         ) : (
           <>
             <ul className='menu'>
-            <li> <Link href='/'> Therapist </Link> </li>
-                <li> <Link href='/model-registration'> Therapist Login/Register </Link> </li>
+            <li> <Link href='/'> Models </Link> </li>
+                <li> <Link href='/model-registration'> Model Login/Register </Link> </li>
                 <li> <Link href='https://www.tristatemassage.com/contact'> Help  </Link> </li>
                 <li> {isLoggedIn? <div> <Link href='/customer-backend'> Settings </Link> | <Link href='/logout'>  Logout </Link> </div>  : <Link href='/customer-login'> Customer Zone </Link> }  </li>
 

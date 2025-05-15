@@ -93,11 +93,11 @@ function ModelRegistration() {
   return (
     <Layout>
       <Head>
-        <title> Therapist Register/Login page</title>
+        <title> Model Register/Login page</title>
       </Head>
       <div class="registration-page"> 
         <div class="login-cnt">
-         <h2> Login as a Therapist </h2>
+         <h2> Login as a Model </h2>
          <form onSubmit={handleLogin}>
                 
                 <div>
@@ -117,7 +117,7 @@ function ModelRegistration() {
         </div>
         <div className="registration-container">
        
-            <h2> Fill the form to register as a Therapist </h2>
+            <h2> Fill the form to register as a Model </h2>
             <form onSubmit={handleRegistration}>
                 <div>
                     <label>Name:</label>
